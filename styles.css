@@ -1,5 +1,5 @@
 body {
-    background-image:url("assets/fondo vinotinto.jpg");
+    background-image:url("assets/fondovinotinto.jpg");
     background-size: cover;       
     background-position: center;  
     background-repeat: no-repeat; 
@@ -40,5 +40,44 @@ h1 {
 }
 .cover {
     width: 300px;
+}
+#escena2 {
+    background-image: url("assets/fondo2.png");
+}
+
+#escena3 {
+    background-image: url("assets/fondo3.jpg");
+}
+
+#escena4 {
+    background-image: url("assets/fondo4.jpg");
+}
+.escena5 {
+    background-image: url("assets/fondo5.jpg");
+}
+
+.escena6 {
+    background-image: url("assets/fondo6.jpg");
+}
+.escena7 {
+    background-image: url("assets/fondo7.jpg");
+}
+.escena8 {
+    background-image: url("assets/fondo8.jpg");
+}
+
+.escena9 {
+    background-image: url("assets/fondo9.jpg");
+}
+
+.escena10 {
+    background-image: url("assets/fondo10.jpg");
+}
+.escena11 {
+    background-image: url("assets/fondo11.jpg");
+}
+
+.escena12 {
+    background-image: url("assets/fondo12.jpg");
 }
 }
