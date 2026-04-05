@@ -1,21 +1,19 @@
 body {
-    background-image:url("assets/fondovinotinto.jpg");
+    background-image: url("assets/fondovinotinto.jpg");
     background-size: cover;       
     background-position: center;  
     background-repeat: no-repeat; 
     height: 100vh;
     margin: 0;
-    a 
-    {
+}
+
+a {
     font-size: 2rem;     
     font-weight: bold;
-}
-a {
     display: block;
-}
-a {
     color: white;
 }
+
 h1 {
     font-size: 4rem;
     font-weight: bold;
@@ -24,60 +22,39 @@ h1 {
     margin-bottom: 20px; 
     letter-spacing: 2px; 
 }
+
+
 .container {
     display: flex;
     height: 100vh;
 }
+
 .left {
     width: 50%;
     padding: 40px;
 }
+
 .right {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .cover {
     width: 300px;
 }
+
 #escena2 {
     background-image: url("assets/fondo2.png");
 }
-
-#escena3 {
-    background-image: url("assets/fondo3.jpg");
+#escena2 h1,
+#escena2 a {
+    color: black;
 }
-
-#escena4 {
-    background-image: url("assets/fondo4.jpg");
-}
-.escena5 {
-    background-image: url("assets/fondo5.jpg");
-}
-
-.escena6 {
-    background-image: url("assets/fondo6.jpg");
-}
-.escena7 {
-    background-image: url("assets/fondo7.jpg");
-}
-.escena8 {
-    background-image: url("assets/fondo8.jpg");
-}
-
-.escena9 {
-    background-image: url("assets/fondo9.jpg");
-}
-
-.escena10 {
-    background-image: url("assets/fondo10.jpg");
-}
-.escena11 {
-    background-image: url("assets/fondo11.jpg");
-}
-
-.escena12 {
-    background-image: url("assets/fondo12.jpg");
-}
+iframe {
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    margin: 20px auto;
 }
