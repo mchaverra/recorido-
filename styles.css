@@ -53,8 +53,32 @@ h1 {
     color: black;
 }
 iframe {
-    width: 20%;
-    height: 20%;
+    width: 560px;
+    height: 315px;
     display: inline-block;
     margin: 20px auto;
+}
+.imagenes {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.img-left {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+}
+
+.img-right {
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+}
+#escena3 {
+    background-image: url("assets/fondo2.png");
 }
