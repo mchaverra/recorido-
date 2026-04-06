@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tengo mucho ruido.</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body id="escena12">
-    </html><h1>tengo mucho ruido.</h1>
+    <h1>tengo mucho ruido.</h1>
+    <p class="hint">Toca cualquier parte de la pantalla… hay una sorpresa 🎵</p>
     <a href="index.html"> Todos los días todo el día </a>
-    <img src="assets/Wpp.jpg" alt="tengo mucho ruido."/>
+    <img src="assets/ruido (1).gif" id="bg-gif">
+
+<audio autoplay loop muted id="audio">
+  <source src="assets/tengo mucho ruido..mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.body.addEventListener("click", function () {
+  const audio = document.getElementById("audio");
+  audio.muted = false;
+  audio.play();
+});
+</script>
+
 </body>

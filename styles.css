@@ -79,6 +79,124 @@ iframe {
     transform: translateY(-50%);
     width: 250px;
 }
-#escena3 {
-    background-image: url("assets/fondo2.png");
+#escena3 h1,
+#escena3 a {
+    color:white;
+}
+
+#escena3 p,
+#escena a {
+    color:white;
+}
+#bg-gif {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#escena4 {
+    background-image: url("assets/fondonuncahesidohonesto.jpg");
+}
+#escena4 h1,
+#escena4 a {
+    color: white;
+}
+#escena4 p,
+#escena4 a {
+    color: white;
+}
+.nunca {
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    transform: translateY(-50%);
+    width: 250px;
+}
+#escena5 {
+    background-image: url("assets/Cayendo.jpg");
+}
+#escena5 h1,
+#escena5 a {
+    color: grey;
+}
+#escena5 p,
+#escena5 a {
+    color: grey;
+}
+#escena6 {
+    background-image: url("assets/Más humano.jpg");
+}
+#escena6 h1,
+#escena6 a {
+    color: white;
+}
+#escena6 p,
+#escena6 a {
+    color:white;
+}
+#escena7 {
+    background-image: url("assets/fondo7.png");
+}
+#escena7 h1,
+#escena7 a {
+    color: black;
+}
+#escena7 p,
+#escena7 a {
+    color:black;
+}
+#escena8 {
+    background-image: url("assets/peromeestoyacabando.jpg");
+}
+#escena8 h1,
+#escena8 a {
+    color: white;
+}
+#escena8 p,
+#escena8 a {
+    color:white;
+}
+#escena9 {
+    background-image: url("assets/quevamosahacer.jpg");
+}
+#escena9 h1,
+#escena9 a {
+    color: white;
+}
+#escena9 p,
+#escena9 a {
+    color:white;
+}
+#escena10 {
+    background-image: url("assets/yosiemprecontesto.jpg");
+}
+#escena10 h1,
+#escena10 a {
+    color: white;
+}
+#escena10 p,
+#escena10 a {
+    color:white;
+}
+#escena11 {
+    background-image: url("assets/fondo11.png");
+}
+#escena11 h1,
+#escena11 a {
+    color: black;
+}
+#escena11 p,
+#escena11 a {
+    color:black;
+}
+#escena12 h1,
+#escena12 a {
+    color: white;
+}
+#escena12 p,
+#escena12 a {
+    color:white;
 }

@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yo siempre contesto</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body id="escena10">
-    </html><h1>Yo siempre contesto</h1>
+    <h1>Yo siempre contesto</h1>
+         <p class="hint">Toca cualquier parte de la pantalla… hay una sorpresa 🎵</p>
     <a href="index.html"> Todos los días todo el día </a>
-    <img src="assets/Wpp.jpg" alt="Yo siempre contesto"/>
     <a href="escena11.html">Ven,</a>
+
+<audio autoplay loop muted id="audio">
+  <source src="assets/Yosiemprecontesto..mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.body.addEventListener("click", function () {
+  const audio = document.getElementById("audio");
+  audio.muted = false;
+  audio.play();
+});
+</script>
 </body>

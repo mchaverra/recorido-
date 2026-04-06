@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ven,</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body id="escena11">
-    </html><h1>Ven,</h1>
+    <h1>Ven,</h1>
+    <p class="hint">Toca cualquier parte de la pantalla… hay una sorpresa 🎵</p>
     <a href="index.html"> Todos los días todo el día </a>
-    <img src="assets/Wpp.jpg" alt="Ven,"/>
     <a href="escena12.html">tengo mucho ruido. </a>
+    
+<audio autoplay loop muted id="audio">
+  <source src="assets/Ven.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.body.addEventListener("click", function () {
+  const audio = document.getElementById("audio");
+  audio.muted = false;
+  audio.play();
+});
+</script>
 </body>
